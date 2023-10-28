@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  type="text/css"   href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" src="/Calculator-icon.png">
+</head>
+<body>
+    <div class="calci"><h1>Calculator</h1>
+    <hr>
+    <div>
+        <input id="targetInput" type="text">
+    </div>
+    <div class="btn">
+        <button  class="sourcebutton"     id="9" onclick="transferText(this)">9</button>
+        <button class="sourcebutton" id="8" onclick="transferText(this)">8</button>
+        <button class="sourcebutton" id="7" onclick="transferText(this)">7</button>
+        <button   class="sourcebutton" id="+" onclick="transferText(this)">+</button>
+        <br>
+        <button class="sourcebutton" id="6" onclick="transferText(this)">6</button>
+        <button class="sourcebutton" id="5" onclick="transferText(this)">5</button>
+        <button class="sourcebutton" id="4" onclick="transferText(this)">4</button>
+        <button   class="sourcebutton"  id="-"  onclick="transferText(this)">-</button>
+        <br>
+        <button  class="sourcebutton"id="3" onclick="transferText(this)">3</button>
+        <button  class="sourcebutton"id="2" onclick="transferText(this)">2</button>
+        <button  class="sourcebutton"id="1" onclick="transferText(this)">1</button>
+        <button  class="sourcebutton" id="*" onclick="transferText(this)">*</button>
+        <br>
+        <button id="ac" onclick="reset()">Ac</button>
+        <button  class="sourcebutton" id="0" onclick="transferText(this)">0</button>
+        <button id="on" onclick="result('targetInput')">=</button>
+        <button  class="sourcebutton"onclick="transferText(this)" id="/">/</button>
+    
+    </div>
+    </div>
+<script src="./calci.js"></script>
+</body>
+</html>

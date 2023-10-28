@@ -1,0 +1,44 @@
+body{
+    background:rgb(105, 200, 255);
+}
+.calci{
+    width:700px;
+    background: #176B87;
+    height:620px;
+    margin-left:300px;
+}
+h1{
+    text-align:center;
+    color:gold;
+    display: inline;
+    margin-left: 300px;
+
+}
+input{
+    
+    width:500px;
+    height:100px;
+    border: 2px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    background:#DAFFFB;
+    margin-left: 120px;
+    font-weight:500;
+    font-size: larger;
+}
+button{
+    width:100px;
+    height:100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin:5px;
+    font-size: large;
+    color:whitesmoke;
+    background:#04364A;
+}
+.btn{
+    margin-left:150px;
+}
+button:hover{
+    background-color: rgb(0, 255, 119);
+}
